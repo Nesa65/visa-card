@@ -1,0 +1,166 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(187, 224, 238);
+}
+.main-wrapper{
+    width:700px;
+    position: relative;
+    bottom:40px;
+    margin:auto;
+}
+.visa-wrapper{
+    background-image:url("images/22.jpeg");
+    width:65%;
+    background-size: cover;
+    position: relative;
+    top:120px;
+    margin:auto;
+    border-radius: 10px;
+    font-family: Inconsolata,sans-serif;
+    padding:20px;
+    box-shadow: 0 0 30px 10px rgb(145, 218, 243);
+   
+}
+.logos{
+    position:relative;
+}
+.visa-wrapper .chips{
+    width:80px;
+    height:60px;
+}
+.visa-wrapper .visa{
+   
+    width:100px;
+    height:60px;
+    position:absolute;
+    right:0;
+}
+.tags-sign{
+    border: 2px solid white;
+    margin:30px 0;
+    padding: 10px;
+}
+.tags-sign i{
+    color:white;
+    font-size:17px;
+}
+
+.margin-right{
+    margin-right:25px;
+}
+.margin-left{
+    margin-left:25px;
+}
+
+.fisrt-item{
+    width:100px;
+    color:white;
+    text-align: center;
+    padding:10px 0;
+}
+.fisrt-item:hover{
+    border:2px solid white;
+}
+
+.fisrt-item .item-1{
+    color:rgb(182, 179, 179);
+    font-size: 15px;
+}
+.fisrt-item .item-2{
+    font-size:15px;
+    font-weight: bold;
+}
+.second-item{
+    width:100px;
+    color:white;
+    text-align: center;
+    padding:10px 0;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.second-item:hover{
+    border:2px solid white;
+}
+.second-item .item-1{
+    color:rgb(182, 179, 179);
+    font-size: 15px;
+} 
+.second-item .item-2{
+    font-size:18px;
+    font-weight: bold;
+}
+
+.holder-info{
+    position: relative;
+    top:0;
+}
+
+.card-info{
+    width:600px;
+    background-color:white;
+    border-radius: 10px;
+    font-family:"Roboto",sans-serif;
+    margin:auto;
+}
+.card-info input:hover{
+    border-color:lightblue;
+}
+.front-numbers select:hover{
+    border-color:lightblue;
+}
+.card-info form{
+    padding:180px 30px 50px 30px;
+}
+.info-item input{
+    width:100%;
+    height:50px;
+    border-radius: 5px;
+    border-radius: 10px;
+    border:1px solid lightgray;
+    outline: none;
+}
+.info-item{
+    margin:20px 0;
+}
+.front-numbers{
+    width:60%;
+}
+.months-values , .years-values{
+  border:1px solid lightgray;
+}
+.date-info{
+    position: relative;
+}
+.date-info select{
+    height:40px;
+    width:45%;
+    margin:5px 10px 5px 0;
+    border-radius: 5px;
+}
+.back-number{
+    position: absolute;
+    right:0px;
+    bottom: 0;
+}
+.back-number input{
+    height:40px;
+    margin:5px 0;
+    border-radius: 5px;
+    border:1px solid lightgray;
+}
+input[type="submit"]{
+    width:100%;
+    height:60px;
+    border-radius: 5px;
+    color:white;
+    background-color:rgb(84, 140, 224);
+    font-size: 30px;
+    margin-top:35px ;
+    padding:10px 0;
+    border: none;
+}
